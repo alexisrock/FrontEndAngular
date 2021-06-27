@@ -1,0 +1,18 @@
+.sidebar{
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgb(23, 12, 230) 0%, rgb(49, 221, 255) 100%);
+position: absolute; z-index: 5px;
+
+}
+
+.sidebar .nav .nav-item .nav-link{
+
+  color: white;
+  font-size: 28px;
+}
+
+.sidebar .nav .nav-item .nav-link:hover{
+
+  color: black;
+  font-size: 28px;
+}

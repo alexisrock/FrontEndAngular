@@ -1,0 +1,48 @@
+<div class="row">
+
+  <div class="col-7">
+    <div class="letralogin">
+      <h2>Aplicación</h2>
+      <h2>OLSoftware</h2>
+      <h5>Prueba practica de aplicacion frontend</h5>
+    </div>
+
+
+
+  </div>
+  <div class="col-4">
+
+    <div class="card cardforma">
+      <div class="card-body text-center">
+
+        <p-toast position="top-center" ></p-toast>
+        <label>Inicio de sesiòn</label>
+        <form [formGroup]="myform" (ngSubmit)="Loggin()">
+
+          <div class="row col-11 ">
+            <div class="p-inputgroup ">
+              <input type="text"  class="form-control"  formControlName="Usuario" placeholder="Usuario">
+              <span class="p-inputgroup-addon "><i class="pi pi-user"></i></span>
+            </div>
+          </div>
+          <div class="row col-11">
+            <div class="p-inputgroup">
+              <input type="password"  class="form-control" formControlName="Password" placeholder="Password">
+              <span class="p-inputgroup-addon "><i class="pi pi-lock"></i></span>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="row col-9">
+            <button class="btn btn-primary"> Iniciar sesiòn</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-1">
+
+  </div>
+  <ngx-spinner bdColor = "rgba(0, 0, 0, 0.8)" size = "medium" color = "#fff" type = "ball-pulse" [fullScreen] = "true"><p style="color: white" > Estamos preparando todo para ti</p></ngx-spinner>
+</div>
