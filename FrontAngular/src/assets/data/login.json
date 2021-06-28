@@ -1,10 +1,12 @@
 [{
     "usuario": "alexis",
-    "password": "12345"
+    "password": "12345",
+    "nombreCompleto": "alexis bueno castro"
 },
 {
 
   "usuario": "clara",
-  "password": "12345"
+  "password": "12345",
+  "nombreCompleto": "Clara ines villalba"
 
 }]

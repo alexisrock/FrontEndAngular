@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nombres": "Andres felipe",
+    "apellidos": "Garcia castro",
+    "identificacion": "114485404",
+    "rol": "Administrador",
+    "estado": "Activo",
+    "telefono": "3165303978",
+    "correo": "afgarcia@refinal.com"
+
+  },
+  {
+    "id": 2,
+    "nombres": "Maria",
+    "apellidos": "ladino guevara",
+    "identificacion": "58965784",
+    "rol": "Administrador",
+    "estado": "Inactivo",
+    "telefono": "30045789651",
+    "correo": "mladino@refinal.com"
+
+  },
+  {
+    "id": 3,
+    "nombres": "clara ines",
+    "apellidos": "Villalba",
+    "identificacion": "39560798",
+    "rol": "Coordinador",
+    "estado": "Activo",
+    "telefono": "3046758425",
+    "correo": "cvillalba@refinal.com"
+
+  },
+  {
+    "id": 4,
+    "nombres": "diego",
+    "apellidos": "ortiz ",
+    "identificacion": "258974",
+    "rol": "conductor",
+    "estado": "Activo",
+    "telefono": "311478965",
+    "correo": "dortiz@refinal.com"
+
+  },
+  {
+    "id": 5,
+    "nombres": "segio andres",
+    "apellidos": "villalba",
+    "identificacion": "1022359898",
+    "rol": "conductor",
+    "estado": "Activo",
+    "telefono": "3112587451",
+    "correo": "svillalba@refinal.com"
+
+  }
+
+]

@@ -67,7 +67,7 @@ this.myform = this.fb.group({
       this.loginservices.usuario.usuario = this.myform.value.Usuario;
       this.loginservices.usuario.password = this.myform.value.Password;
       if(this.loginservices.login()){
-        this.auth.setUser(this.loginservices.responseusuario.usuario);
+        this.auth.setUser(this.loginservices.responseusuario.nombreCompleto?.toString());
         this.spinner.show();
 
         setTimeout(()=>{

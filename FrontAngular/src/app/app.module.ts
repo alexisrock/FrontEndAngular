@@ -17,13 +17,20 @@ import { DashboardComponent } from './Aplicacion/principal/dashboard/dashboard.c
 import {SidebarModule} from 'primeng/sidebar';
 import {ButtonModule} from 'primeng/button';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { GestionUsuariosComponent } from './Aplicacion/principal/gestion-usuarios/gestion-usuarios.component';
+import {TableModule} from 'primeng/table';
+import {DialogModule} from 'primeng/dialog';
+import { AgregarUsuarioComponent } from './Aplicacion/principal/agregar-usuario/agregar-usuario.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     SidebarComponent,
     NavbarComponent,
-    LoginComponent
+    LoginComponent,
+    GestionUsuariosComponent,
+    AgregarUsuarioComponent
   ]
   ,
   imports: [
@@ -34,7 +41,9 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     ToastModule,
     SidebarModule,
     ButtonModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    TableModule,
+    DialogModule
 
   ],
   providers: [MessageService],

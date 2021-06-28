@@ -8617,7 +8617,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   align-items: center; }
   .form-inline .form-check {
     width: 100%; }
- 
+
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -9074,7 +9074,7 @@ input[type="button"].btn-block {
   height: 0;
   overflow: hidden;
   transition: height 0.35s ease; }
-  
+
 
 
 .dropup,
@@ -10942,7 +10942,7 @@ button.close {
   transition: transform 0.6s ease;
   backface-visibility: hidden;
   perspective: 1000px; }
-  
+
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
@@ -12354,7 +12354,9 @@ h4,
 h5,
 p,
 span {
-  text-shadow: none; }
+  text-shadow: none;
+
+}
 
 [type=button]:focus,
 a:active,
@@ -13046,7 +13048,7 @@ html {
   flex-grow: 1; }
 
 .container-scroller {
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .scroll-container {

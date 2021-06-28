@@ -17,7 +17,8 @@ public usuario: Login ={
 
 public responseusuario: Login ={
   usuario: "",
-  password: ""
+  password: "",
+  nombreCompleto: ""
 }
 
   login(): boolean{

@@ -1,0 +1,75 @@
+<form [formGroup]="myform">
+
+  <div *ngIf="mensaje!==''" class="error">
+    {{mensaje}}
+  </div>
+
+  <div class="row">
+    <div class="col-2">&nbsp;</div>
+    <div class="col-4">
+      <label>Nombres</label>
+      <input type="text" class="form-control" formControlName="nombres">
+    </div>
+    <div class="col-4">
+      <label>Apeliidos</label>
+      <input type="text" class="form-control" formControlName="apellidos">
+    </div>
+    <div class="col-2"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-2">&nbsp;</div>
+    <div class="col-4">
+      <label>Identificacion</label>
+      <input type="text" class="form-control" formControlName="identificacion">
+    </div>
+    <div class="col-4">
+      <label>Rol asociado</label>
+      <input type="text" class="form-control" formControlName="rol">
+    </div>
+    <div class="col-2"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-2">&nbsp;</div>
+    <div class="col-4">
+      <label>Estado</label>
+      <input type="text" class="form-control" formControlName="estado">
+    </div>
+    <div class="col-4">
+      <label>Contraseña</label>
+      <input type="password" class="form-control" formControlName="contraseña">
+    </div>
+    <div class="col-2"></div>
+  </div>
+  <div class="row">
+    <div class="col-2">&nbsp;</div>
+    <div class="col-4">
+      <label>Telefono</label>
+      <input type="text" class="form-control" formControlName="telefono">
+    </div>
+    <div class="col-4">
+      <label>Correo electronico</label>
+      <input type="text" class="form-control" formControlName="correo">
+    </div>
+    <div class="col-2"></div>
+  </div>
+  <br><br>
+  <div class="row">
+    <div class="col-2"></div>
+    <div class="col-2"></div>
+    <div class="col-2">
+      <button   class="btn btn-success" (click)="save()">Aceptar</button>
+    </div>
+    <div class="col-2">
+      <button    class="btn btn-outline-success" (click)="hideDialog()">Cancelar</button>
+    </div>
+
+
+
+  </div>
+
+
+
+
+</form>

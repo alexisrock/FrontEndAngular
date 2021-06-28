@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { CookieService } from 'ngx-cookie-service';
+import { Login } from '../models/login';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +13,7 @@ export class AuthService {
     return this.cookies.get('username');
   }
 
-  setUser(Usuario: string){
+  setUser(Usuario: string | any){
     this.cookies.set('username', Usuario);
   }
 
@@ -21,6 +22,12 @@ export class AuthService {
     return this.getUser() !== null;
   }
 
+
+
+  Logout(){
+    this.cookies.delete('username');
+
+  }
 
 
 }
